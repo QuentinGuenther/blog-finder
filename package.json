@@ -6,16 +6,23 @@
     "@types/jest": "24.0.18",
     "@types/node": "12.7.5",
     "@types/react": "16.9.2",
+    "@types/react-bootstrap": "0.32.19",
     "@types/react-dom": "16.9.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "bootstrap": "4.3.1",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
+    "react": "16.9.0",
+    "react-bootstrap": "1.0.0-beta.12",
+    "react-dom": "16.9.0",
     "react-scripts": "3.1.1",
+    "react-test-renderer": "16.9.0",
     "typescript": "3.6.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:coverage": "CI=true npm test -- --coverage",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
