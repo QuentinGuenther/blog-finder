@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Interaction should match snapshot Interaction should match snapshot 1`] = `
+<div>
+  <div
+    className="comments"
+  >
+    75
+  </div>
+  <div
+    className="vote"
+  >
+    105000
+  </div>
+</div>
+`;

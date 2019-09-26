@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link matches snapshot Link given page url 1`] = `
+<a
+  href="https://www.google.com/"
+>
+  google
+</a>
+`;
