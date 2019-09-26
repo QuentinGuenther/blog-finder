@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogCard should match snapshot BlogCard should match snapshot 1`] = `
+<div>
+  <img
+    alt="A comprehensive list of … ES2017, ES2018, ES2019"
+    src="https://b.thumbs.redditmedia.com/ZeHIfttfHHKwSTV3j87WqzzU6yMeCgm9gDTCcAKurIM.jpg"
+  />
+  <h2>
+    A comprehensive list of … ES2017, ES2018, ES2019
+  </h2>
+  <a
+    href="github.com"
+  >
+    github.com
+  </a>
+  <div>
+    <div
+      className="comments"
+    >
+      3
+    </div>
+    <div
+      className="vote"
+    >
+      48
+    </div>
+  </div>
+  <a
+    href="https://github.com/daumann/ECMAScript-new-features-list"
+  >
+    Visit Page
+  </a>
+  <a
+    href="https://reddit.com/r/webdev/comments/d8mj5o/a_comprehensive_list_of_new_es_features_including/"
+  >
+    Comments
+  </a>
+</div>
+`;
