@@ -1,5 +1,6 @@
 import React from 'react';
 import { BlogCard } from './components/blog-card/BlogCard';
+import fetchReddit from './data/redditFetch';
 
 const App: React.FC = () => {
   return (
