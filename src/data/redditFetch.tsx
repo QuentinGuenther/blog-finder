@@ -19,13 +19,13 @@ interface PostData {
   blogLink: string
 }
 
-function filter(response: Array<any>): Array<any> {
+export function filter(response: Array<any>): Array<any> {
   // TODO: given an array of posts, filter off all posts that do not match our criteria
 
   return [];
 }
 
-function lighten(post: any): PostData {
+export function lighten(post: any): PostData {
   // TODO: Given a post create a new object and copy over necessary posts
 
   return {
