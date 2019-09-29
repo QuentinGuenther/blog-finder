@@ -8,7 +8,8 @@ export interface PillProps {
 export function Pill (props: PillProps) {
   return (
     <div>
-      
+      <button onClick={props.clickHandler}>X</button>
+      <p>{props.label}</p>
     </div>
   );
 }
